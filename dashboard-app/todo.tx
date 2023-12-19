@@ -1,0 +1,23 @@
+- allow user to pick theme/colors
+- add styling to everything
+
+
+Nav
+
+
+DateTime
+- move?
+
+Task Form
+- save tasks to local storage
+- add and delete button
+
+
+Calendar
+- sync to gcal? 
+- save to local storage?
+
+Weather
+- current forcast
+- hourly and 5 day forecast?
+- link to weather.com?

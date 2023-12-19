@@ -12,12 +12,12 @@ export const Todocard = () => {
             <Form.Group>
                 {/* checkbox starts hidden until styled */}
                 <Form.Check type="checkbox"></Form.Check>
-                <Form.Control placeholder="enter task here"></Form.Control>
-            </Form.Group>
-            <Form.Group>
+                <Form.Control id="taskInput" placeholder="enter task here"></Form.Control>
                 <Button type="submit">X</Button>
             </Form.Group>
-
+            <Form.Group>
+                <Button type="submit">+</Button>
+            </Form.Group>
         </Form>
     )
 }

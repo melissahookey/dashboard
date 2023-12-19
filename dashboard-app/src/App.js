@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 // import './App.css';
 import { Navigation } from './components/Nav/Nav';
-import { Todocard } from './components/Card/Card'
+import { Todocard } from './components/Form/Form'
 
 
 function App() {
