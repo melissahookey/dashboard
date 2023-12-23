@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  display: flex;
+  margin: 0;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body {
+  margin: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +41,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+Container {
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.mainContent {
+  padding: 20px 20px;
+  width: 100%;
+}
+
+Col {
+  width: 100%;
+}
+
+.col {
+  padding: 0;
+}
+
+Row {
+  width: 100%;
+  padding: 0;
 }

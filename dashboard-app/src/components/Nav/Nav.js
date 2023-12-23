@@ -1,3 +1,4 @@
+import '../Nav/Nav.css';
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import DateTime from "../DateTime/DateTime";
