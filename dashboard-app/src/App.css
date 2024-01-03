@@ -58,6 +58,11 @@ Container {
   width: 100%;
 }
 
+.container-fluid {
+  background-color: #00264F;
+  color: #DFE4E9;
+}
+
 Col {
   width: 100%;
 }

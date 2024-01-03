@@ -3,7 +3,6 @@ import React from "react";
 import FullCalendar from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid'
 
-
 const events = [
     { title: 'Meeting', start: new Date() }
   ]
@@ -13,7 +12,9 @@ const events = [
             <FullCalendar
             plugins={[dayGridPlugin]}
             initialView='dayGridMonth'
+            editable={true}
             weekends={true}
+            droppable={true}
             events={events}
             eventContent={renderEventContent}
             />

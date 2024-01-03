@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Col, Row } from "react-bootstrap";
 
 // add a input field when user clicks plus sign button
 // user types to do item and can save to local storage
@@ -9,14 +9,17 @@ export const Todocard = () => {
     return (
         <Form>
             <Form.Label>To Do</Form.Label>
-            <Form.Group>
+            <Form.Group as={Row} className="mb-3">
                 {/* checkbox starts hidden until styled */}
-                <Form.Check type="checkbox"></Form.Check>
-                <Form.Control id="taskInput" placeholder="enter task here"></Form.Control>
-                <Button type="submit">X</Button>
-            </Form.Group>
-            <Form.Group>
-                <Button type="submit">+</Button>
+                <Col>
+                    <Form.Check type="checkbox"></Form.Check>
+                </Col>
+                <Col>
+                    <Form.Control id="taskInput" placeholder="enter task here"></Form.Control>
+                </Col>
+                <Col>
+                    <Button type="submit" id="btn">+</Button>
+                </Col>
             </Form.Group>
         </Form>
     )

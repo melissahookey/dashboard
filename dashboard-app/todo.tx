@@ -11,9 +11,12 @@ DateTime
 Task Form
 - save tasks to local storage
 - add and delete button
-
+- after submit btn clicked, new task input auto appears
+- finish task/check box clicked: instead of delete, cross out task and grey out text
+- 
 
 Calendar
+- literally just functionality :(
 - sync to gcal? 
 - save to local storage?
 

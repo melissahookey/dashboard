@@ -1,3 +1,9 @@
 .calendarBody {
     height: 200px;
+    color: #DFE4E9;
+    background-color: #00264F;
+}
+
+button {
+    background-color: #00264F;
 }
