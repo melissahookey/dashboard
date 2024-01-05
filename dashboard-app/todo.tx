@@ -20,7 +20,8 @@ Calendar
 - sync to gcal? 
 - save to local storage?
 
-Weather
-- current forcast
+Weather - api works!!
+- display current forcast
 - hourly and 5 day forecast?
 - link to weather.com?
+- put api key in .env

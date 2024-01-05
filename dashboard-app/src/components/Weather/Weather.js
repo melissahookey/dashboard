@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card } from "react-bootstrap";
 
-export const Currentforecast = () => {
+// var KEY = "a434fb7108d1c9d1a73fc8909da81555";
+// var lat = "30.30484";
+// var lon = "-97.99669";
+
+function Fetchweather() {
+    // const [city] =useState('')
+    useEffect(() => {
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=30.30484&lon=-97.99669&units=imperial&appid=a434fb7108d1c9d1a73fc8909da81555`) 
+            .then(response => response.json())
+            .then(json => console.log(json))
+    }, []);
     return (
         <Card>
-            <Card.Body>
-                {/* Loction name fill in title */}
-                <Card.Title></Card.Title>
-                {/* Temp icon fill in img */}
-                <Card.Img></Card.Img>
-                {/* Temp fill in subtitle */}
-                <Card.Subtitle></Card.Subtitle>
-            </Card.Body>
         </Card>
     )
 }
+
+export default Fetchweather;
